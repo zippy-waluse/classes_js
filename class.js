@@ -75,7 +75,7 @@ class Question {
    }
 const question1 = new Question("Who was the first president of Kenya?", ["Moi", "Kenyatta", "Obama"], "Kenyatta");
 const question2 = new Question("Who was the first prime minister of Kenya?", ["Moi", "Odinga", "Waluse"], "Waluse");
-const secondQuiz = new Quiz();
+const Quiz = new Quiz();
 secondQuiz.addQuestion(question1);
 secondQuiz.addQuestion(question2);
 secondQuiz.submitAnswer("Kenyatta");
